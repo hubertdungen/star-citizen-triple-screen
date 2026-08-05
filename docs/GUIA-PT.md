@@ -7,11 +7,20 @@ Este e o equivalente seguro para Star Citizen: externo, reversivel, e sem DLL ho
 1. Deixa estes ficheiros fora da pasta do jogo, por exemplo em `Documentos\StarCitizenTripleScreen` ou `C:\Tools\StarCitizenTripleScreen`.
 2. Nao metas o script em `LIVE\Bin64`, na pasta do Easy Anti-Cheat, nem na pasta do RSI Launcher.
 3. Mantem NVIDIA Surround desligado.
-4. Mete os dois monitores laterais 1080p em 2560x1440 efetivo via DSR/DLDSR.
-5. Mantem o monitor central em 2560x1440 nativo.
-6. Em Sistema > Ecra, escolhe cada monitor e define **Escala = 100% nos tres**.
-7. No Windows, alinha os tres monitores pelo topo e deixa o central como principal.
-8. Confirma que `StarCitizenTripleScreen.ini` esta assim:
+4. Abre o **Painel de Controlo NVIDIA** e entra em **Gerir definicoes 3D >
+   Definicoes globais > Fatores DSR**.
+5. Ativa o fator `1.78x` que disponibiliza `2560x1440` num monitor nativo
+   `1920x1080`. Conforme o driver, pode aparecer como `1.78x DL` (DLDSR) ou
+   apenas `1.78x` (DSR tradicional). Carrega **Aplicar**.
+6. Abre **Definicoes do Windows > Sistema > Ecra**, seleciona cada monitor
+   lateral e escolhe **Resolucao do ecra = 2560x1440**.
+7. Mantem o monitor central em 2560x1440 nativo.
+8. Ainda em Sistema > Ecra, escolhe cada monitor e define **Escala = 100% nos tres**.
+9. No Windows, alinha os tres monitores pelo topo e deixa o central como principal.
+10. Confirma que `StarCitizenTripleScreen.ini` esta assim:
+
+Se `2560x1440` nao aparecer num monitor lateral, volta aos Fatores DSR e confirma
+que `1.78x` ficou ativo antes de arrancares o wrapper.
 
 ```ini
 [Layout]

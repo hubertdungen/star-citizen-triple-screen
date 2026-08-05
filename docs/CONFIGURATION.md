@@ -53,6 +53,12 @@ Different physical monitor resolutions can work when the GPU exposes compatible
 effective heights, for example two physical 1080p sides using NVIDIA DSR/DLDSR
 at an effective 2560x1440 beside a native 2560x1440 centre.
 
+For native 1920x1080 side monitors, open **NVIDIA Control Panel > Manage 3D
+settings > Global Settings > DSR - Factors** and enable the `1.78x` factor that
+exposes `2560x1440`. Drivers may label it `1.78x DL` (DLDSR) or `1.78x`
+(legacy DSR). Apply the change, then open **Windows Settings > System > Display**,
+select each side monitor, and choose `2560x1440`. Keep NVIDIA Surround disabled.
+
 Every display intersecting the target must use **100% Windows scale**. Mixed DPI
 such as 125% sides plus a 100% centre caused Star Citizen to enlarge a requested
 7680x1440 Windowed surface to 8960x1800. The wrapper detects this before launch.

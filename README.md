@@ -57,6 +57,24 @@ Height  1440
 
 For the two 1080p side monitors, set a 2560x1440 effective resolution first using NVIDIA DSR/DLDSR or a driver-level custom resolution. Keep NVIDIA Surround disabled.
 
+### NVIDIA DSR/DLDSR for 1080p side monitors
+
+1. Open **NVIDIA Control Panel**.
+2. Go to **Manage 3D settings > Global Settings**.
+3. Open **DSR - Factors** and enable the `1.78x` option that exposes
+   `2560x1440` on a native `1920x1080` display. Depending on the driver, the
+   option may be labelled `1.78x DL` (DLDSR) or simply `1.78x` (legacy DSR).
+4. Select **Apply**.
+5. Open **Windows Settings > System > Display**. Select each side monitor in
+   turn and set **Display resolution** to `2560x1440`.
+6. On every monitor used by the game, set **Scale** to `100%`.
+7. Keep the centre monitor at its native `2560x1440`, align all three displays
+   by their top edge, and leave the centre display as primary.
+
+If `2560x1440` does not appear for a side monitor after applying the factor,
+reopen the NVIDIA setting and confirm that the `1.78x` factor is enabled for the
+active GPU/display path before starting the wrapper.
+
 Set **Windows Display Scale to 100% on all three monitors**. A mixed 100% centre
 and 125% sides layout makes the current Star Citizen Windowed renderer expand
 `7680x1440` into an `8960x1800` outer window. The wrapper detects this and stops

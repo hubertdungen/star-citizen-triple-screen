@@ -153,4 +153,4 @@ No one outside CIG/Epic can guarantee an anti-cheat outcome for third-party soft
 - If the game or launcher has issues, restore `USER.cfg`, close the wrapper, and run Star Citizen normally.
 
 
-<p align="center"><a href="https://dlforge.dungenlabs.com"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/branding/dlforge-logo-negative.svg"><source media="(prefers-color-scheme: light)" srcset="docs/branding/dlforge-logo.svg"><img src="docs/branding/dlforge-logo.svg" alt="DL Forge" width="120"></picture></a><br><a href="https://dlforge.dungenlabs.com">DL Forge</a></p>
+<p align="center"><a href="https://dlforge.dungenlabs.com"><picture><source media="(prefers-color-scheme: dark)" srcset="docs/branding/dlforge-logo-negative.svg"><source media="(prefers-color-scheme: light)" srcset="docs/branding/dlforge-logo.svg"><img src="docs/branding/dlforge-logo.svg" alt="DL Forge" width="120"></picture></a></p>

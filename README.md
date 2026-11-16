@@ -151,3 +151,6 @@ No one outside CIG/Epic can guarantee an anti-cheat outcome for third-party soft
 - If the mouse is trapped on one monitor, confirm `[Input] RepairCursorClip=true`; the log should show the old clip and its expansion to the complete target.
 - If the script stops with a resize-loop warning, Star Citizen is repeatedly changing its own window. Keep `ContinuousWatch=false` and attach the wrapper log plus `StarCitizen\LIVE\Game.log` to the bug report.
 - If the game or launcher has issues, restore `USER.cfg`, close the wrapper, and run Star Citizen normally.
+
+
+<p align="center"><a href="https://dlforge.dungenlabs.com"><img src="docs/branding/dlforge-logo.svg" alt="DL Forge" width="120"></a><br><a href="https://dlforge.dungenlabs.com">DL Forge</a></p>
